@@ -1,19 +1,23 @@
-body { 
-    color: #212121;
-    background-color: #fff;
-    font-family: Roboto, sans-serif;
-}
-
-.list {
-    list-style: none;
-}
-
 /* цвет основного текста #212121 */
 /* вторичный цвет #757575 */
 /* background: #FFFFFF */
 /* вторичный фон #F5F4FA */
 /* акценты #2196F3 */
 /* footer #2F303A */
+
+
+body { 
+    color: #212121;
+    background-color: #fff;
+    font-family: Roboto, sans-serif;
+    
+}
+
+.list {
+    list-style: none;
+}
+
+
 
 /* Site nav */
 
