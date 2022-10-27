@@ -4,53 +4,22 @@
 /* вторичный фон #F5F4FA */
 /* акценты #2196F3 */
 /* footer #2F303A */
+/* logo-color #ffffff */
 
 
 body { 
-    color: #212121;
-    background-color: #fff;
     font-family: Roboto, sans-serif;
-    
+    font-size: 14px;
 }
 
 .list {
     list-style: none;
-}
+  }
+  
+.link {
+    text-decoration: none;
+  }
 
 
+/* Шапка сайта */
 
-/* Site nav */
-
-.site-nav .link {
-    columns: #212121;
-}
-
-.site-nav .link:hover, 
-.site-nav .link:focus   {
-    color: #2196F3;
-}
-
-.site-nav .link.current {
-    color: #2196F3;
-}
-
-/* Hero */
-
-.hero-title {
-    color: #212121;
-}
-
-/* Section */
-
-.section-title {
-    color: #212121;
-}
-
-/* Features */
-
-.feature-list .title {
-    color: #212121;
-}
-.feature-list .title .text {
-    color:#757575
-}
