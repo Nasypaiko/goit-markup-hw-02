@@ -125,7 +125,7 @@ body {
   /* Команда */
   
 .command {
-    background-color: var(--secondary-color);
+    background-color: var(--secondary-bg-color);
   }
 
 .command-title {
