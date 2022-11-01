@@ -1,12 +1,13 @@
 
-/* цвет основного текста #212121 */
-/* вторичный цвет #757575 */
-/* background: #FFFFFF */
-/* вторичный фон #F5F4FA */
-/* акценты #2196F3 */
-/* footer #2F303A */
-/* logo-color #ffffff */
-
+:root {
+    --primary-color: #212121;
+    --secondary-color: #757575;
+    --accent-color: #2196f3;
+    --logo-color: #000000;
+    --background-color: #ffffff;
+    --secondary-bg-color: #F5F4FA;
+    --basement-color: #2F303A;
+  }
 
 body { 
     font-family: Roboto, sans-serif;
@@ -25,18 +26,18 @@ body {
   /* Шапка сайта */
   
 .header {
-    background-color: #ececec;
+    background-color: var(--background-color);
   }
   
 .header-logo {
     font-family: "Raleway";
     font-size: 26px;
     line-height: 1.19;
-    color: #000000;
+    color: var(--logo-color);
   }
   
 .logo-style {
-    color: #2196f3;
+    color: var(--accent-color);
   }
   
 .nav-link {
@@ -44,13 +45,13 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121
+    color: var(--primary-color);
   }
   
 .site-nav .nav-link:hover,
 .site-nav .nav-link:focus,
 .site-nav .nav-link.current {
-    color: #2196f3;
+    color: var(--accent-color);
   }
   
 .contacts-link {
@@ -58,18 +59,18 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--secondary-color);
   }
   
 .auth-nav .contacts-link:hover,
 .auth-nav .contacts-link:focus {
-    color: #2196f3;
+    color: var(--accent-color);
   }
   
   /* Герой */
   
 .hero {
-    background-color: #2f303a;
+    background-color: var(--basement-color);
   }
   
 .hero-title {
@@ -79,11 +80,11 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #ffffff;
+    color: var(--background-color);
   }
   
 .hero-btn {
-    background: #2196f3;
+    background: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-family: inherit;
@@ -93,7 +94,7 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #ffffff;
+    color: var(--background-color);
   }
   
   /* Преимущества */
@@ -103,12 +104,12 @@ body {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121
+    color: var(--primary-color);
   }
 .advantages-text {
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--secondary-color);
   }
   
   /* Виды работ */ 
@@ -118,13 +119,13 @@ body {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--primary-color);
   }
 
   /* Команда */
   
 .command {
-    background-color: #f5f4fa;
+    background-color: var(--secondary-color);
   }
 
 .command-title {
@@ -132,7 +133,7 @@ body {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--primary-color);
   }
   
 .command-people {
@@ -141,7 +142,7 @@ body {
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121
+    color: var(--primary-color);
   }
   
 .command-position {
@@ -149,13 +150,13 @@ body {
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--secondary-color);
   }
   
   /* Футер */
 
 .basement {
-    background-color: #2f303a;
+    background-color: var(--basement-color);
   }
   
 .basement-logo {
@@ -163,18 +164,18 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #ffffff;
+    color: var(--background-color);
   }
   
 .logo-style {
-    color: #2196f3;
+    color: var(--accent-color);
   }
 
 .google-link {
     font-style: normal;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #ffffff;
+    color: var(--background-color);
   }
   
 .basement-contacts {
@@ -186,7 +187,7 @@ body {
   
 .basement-contacts:hover,
 .basement-contacts:focus {
-      color: #2196f3;
+      color: var(--accent-color);
     }
 
   /* ------Portfolio.html------ */
@@ -196,33 +197,33 @@ body {
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
-    color: #212121
+    color: var(--primary-color);
   }
 .btn-projects {
     cursor: pointer;
-    background-color: #f5f4fa;
+    background-color: var(--secondary-color);
   }
   
 .btn-projects:hover,
 .btn-projects:focus {
-    background-color: #2196f3;
-    color: #ffffff;
+    background-color: var(--accent-color);
+    color: var(--background-color);
   }
   
 .team-title {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121
+    color: var(--primary-color);
   }
   
 .team-image {
-    background-color: #ffffff;
+    background-color: var(--background-color);
   }
   
 .team-category {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--secondary-color);
   }
