@@ -117,6 +117,7 @@ body {
   text-transform: uppercase;
   color: var(--primary-color);
 }
+
 .advantages-text {
   line-height: 1.71;
   letter-spacing: 0.03em;
